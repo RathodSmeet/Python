@@ -1,9 +1,9 @@
-# items() method in Dictionary
+# Copy a Dictionary
 stud1 = {
     'rno':1,
     'stud_name':"Aakash",
     'class':'BCA',
     'sem':6
 }
-for k,v in stud1.items():
-    print(k,v)
+stud2 = stud1.copy()
+print(stud1,stud2)
