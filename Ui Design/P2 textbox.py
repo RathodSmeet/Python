@@ -1,0 +1,11 @@
+import tkinter
+win = tkinter.Tk()
+win.geometry("750x250")
+txt1 = tkinter.Entry(win)
+txt1.pack()
+txt2 = tkinter.Entry(win)
+txt2.pack()
+btn = tkinter.Button(win,text="Click me")
+btn.pack()
+win.mainloop()
+print("End of program")
