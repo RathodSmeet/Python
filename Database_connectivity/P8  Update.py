@@ -16,3 +16,4 @@ try :
     print("Record updated successfully")
 except:
     print("Record updated failed:Error")
+mydb.commit()

@@ -11,3 +11,4 @@ try :
     print("Record inserted successfully")
 except :
     print("Error")
+mydb.commit()

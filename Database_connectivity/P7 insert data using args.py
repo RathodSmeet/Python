@@ -15,3 +15,4 @@ try :
     print("Record inserted successfully")
 except :
     print("Record insertion failed : Error")
+mydb.commit()

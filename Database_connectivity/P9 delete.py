@@ -14,3 +14,4 @@ try :
     print("Record deleted successfully")
 except:
     print("Unable to delete:Error")
+mydb.commit()
