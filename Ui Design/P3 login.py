@@ -3,7 +3,7 @@ win = tkinter.Tk()
 win.geometry("250x250")
 
 lblusername = tkinter.Label(win,text="Username: ")
-lblusername.place(x=10,y=10)
+lblusername.place(x=10,y=50)
 txtusername = tkinter.Entry(win)
 txtusername.place(x=110,y=50)
 

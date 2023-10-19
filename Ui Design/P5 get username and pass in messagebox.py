@@ -14,7 +14,7 @@ v_username = tkinter.StringVar()
 v_password = tkinter.StringVar()
 
 lblusername = tkinter.Label(win,text="Username: ")
-lblusername.place(x=10,y=10)
+lblusername.place(x=10,y=50)
 txtusername = tkinter.Entry(win,textvariable=v_username)
 txtusername.place(x=110,y=50)
 
